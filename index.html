@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta title="Formulaire dynamique">
+        <style>
+            form {
+                margin-bottom: 25px;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            p {
+                margin-bottom: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Event</h1>
+        <form class="search-form">
+            <p>Sélectionner une période : </p>
+            <label for="search">
+                <select name="search" id="search">
+                    <option value="">Du 04 juillet au 10 juillet 2016</option>
+                </select>
+                <input type="submit" value="Rechercher">
+            </label>
+        </form>
+        <div class="output">
+        </div>
+
+
+    <script src="./event.js"></script>
+    <script src="./main.js"></script>
+    <script src="./form.js"></script>
+</html>

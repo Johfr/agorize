@@ -1,0 +1,14 @@
+{
+  "name": "agorize-test",
+  "version": "1.0.0",
+  "description": "jest test for to check availabilities class",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Johanne",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
